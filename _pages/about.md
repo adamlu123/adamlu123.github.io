@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Applied Scientist @Microsoft <!-- <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
+subtitle: Machine learning scientist / enthusiastic go player <!-- <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
 
 profile:
   align: right
@@ -13,7 +13,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I currently work as an applied scientist at Microsoft. I obtained my PhD degree at UC Irvine, adviser: Pierre Baldi. My research work is on probabilistic deep learning, scalable machine learning algorithm with applications to neural network model efficiency, image processing, and natural language processing. 
+I currently work as an applied scientist at Microsoft Bing. I received my PhD degree at UC Irvine, advisor: Pierre Baldi.
+
+My research work is on probabilistic deep learning, scalable machine learning algorithm with applications to neural network model efficiency, image processing, and natural language processing. 
+
+(This site is under construction)
 <!---
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
