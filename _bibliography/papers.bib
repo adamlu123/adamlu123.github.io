@@ -3,20 +3,75 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{Wang2020DifferentiableJP,
-  title={Differentiable Joint Pruning and Quantization for Hardware Efficiency},
-  author={Y. Wang and Y. Lu and Tijmen Blankevoort},
-  journal={European Conference on Computer Vision (ECCV)},
-  year={2020},
-  volume={abs/2007.10463}
+
+@misc{https://doi.org/10.48550/arxiv.2202.00723,
+  doi = {10.48550/ARXIV.2202.00723},
+  url = {https://arxiv.org/abs/2202.00723},
+  author = {Lu, Yadong and Romero, Alexis and Fenton, Michael James and Whiteson, Daniel and Baldi, Pierre},
+  keywords = {High Energy Physics - Experiment (hep-ex), High Energy Physics - Phenomenology (hep-ph), FOS: Physical sciences, FOS: Physical sciences},
+  title = {Resolving Extreme Jet Substructure},
+  publisher = {arXiv},
+  year = {2022},
+  abbr={Arxiv},
+  html={https://arxiv.org/abs/2202.00723},
+  copyright = {arXiv.org perpetual, non-exclusive license},
+  abstract={We study the effectiveness of theoretically-motivated high-level jet observables in the extreme context of jets with a large number of hard sub-jets (up to N=8). Previous studies indicate that high-level observables are powerful, interpretable tools to probe jet substructure for N≤3 hard sub-jets, but that deep neural networks trained on low-level jet constituents match or slightly exceed their performance. We extend this work for up to N=8 hard sub-jets, using deep particle-flow networks (PFNs) and Transformer based networks to estimate a loose upper bound on the classification performance. The high-level jet observables perform well, with an overall classification accuracy of 86.90%, but fall short of the PFN and Transformer models, which reach classification accuracies of 89.19% and 91.27% respectively, suggesting that the constituent networks utilize information not captured by the set of high-level observables. We then identify additional high-level observables which are able to narrow this gap, and utilize LASSO regularization for feature selection to identify and rank the most relevant observables and provide further insights into the learning strategies used by the constituent-based neural networks. The final model contains only 31 high-level observables and is able to match the performance of the PFN and approximate the performance of the Transformer model to within 2%.}
 }
 
-@article{plonq,
-  title={Progressive Neural Image Compression with Nested Quantization and Latent Ordering},
-  author={Y. Lu and Yinhao Zhu and Y. Yang and A. Said and T. Cohen},
-  journal={IEEE International Conference on Image Processing (ICIP)},
+
+@article{PhysRevD.103.036012,
+  title = {Sparse autoregressive models for scalable generation of sparse images in particle physics},
+  author = {Lu, Yadong and Collado, Julian and Whiteson, Daniel and Baldi, Pierre},
+  journal = {Physics Review D},
+  abbr={Phys Rev.D},
+  volume = {103},
+  issue = {3},
+  pages = {036012},
+  numpages = {22},
+  year = {2021},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.103.036012},
+  html = {https://link.aps.org/doi/10.1103/PhysRevD.103.036012},
+  selected={true},
+  abstract={Generation of simulated data is essential for data analysis in particle physics, but current Monte Carlo methods are very computationally expensive. Deep-learning-based generative models have successfully generated simulated data at lower cost, but struggle when the data are very sparse. We introduce a novel deep sparse autoregressive model (SARM) that explicitly learns the sparseness of the data with a tractable likelihood, making it more stable and interpretable when compared to generative adversarial networks (GANs) and other methods. In two case studies, we compare SARM to a GAN model and a nonsparse autoregressive model. As a quantitative measure of performance, we compute the Wasserstein distance (
+W
+p
+) between the distributions of physical quantities calculated on the generated images and on the training images. In the first study, featuring images of jets in which 90% of the pixels are zero valued, SARM produces images with 
+W
+p
+ scores that are 24%–52% better than the scores obtained with other state-of-the-art generative models. In the second study, on calorimeter images in the vicinity of muons where 98% of the pixels are zero valued, SARM produces images with 
+W
+p
+ scores that are 66%–68% better. Similar observations made with other metrics confirm the usefulness of SARM for sparse data in particle physics.}
+}
+
+@article{Wang2020DifferentiableJP,
+  title={Differentiable Joint Pruning and Quantization for Hardware Efficiency},
+  author={Yin Wang and Yadong Lu and Tijmen Blankevoort},
+  journal={European Conference on Computer Vision (ECCV)},
+  year={2020},
+  url={https://arxiv.org/abs/2007.10463},
+  html={https://arxiv.org/abs/2007.10463},
+  abbr={ECCV},
+  image={/assets/img/9.jpg},
+  abstract={We present a differentiable joint pruning and quantization (DJPQ) scheme. We frame neural network compression as a joint gradient-based optimization problem, trading off between model pruning and quantization automatically for hardware efficiency. DJPQ incorporates variational information bottleneck based structured pruning and mixed-bit precision quantization into a single differentiable loss function. In contrast to previous works which consider pruning and quantization separately, our method enables users to find the optimal trade-off between both in a single training procedure. To utilize the method for more efficient hardware inference, we extend DJPQ to integrate structured pruning with power-of-two bit-restricted quantization. We show that DJPQ significantly reduces the number of Bit-Operations (BOPs) for several networks while maintaining the top-1 accuracy of original floating-point models (e.g., 53x BOPs reduction in ResNet18 on ImageNet, 43x in MobileNetV2). Compared to the conventional two-stage approach, which optimizes pruning and quantization independently, our scheme outperforms in terms of both accuracy and BOPs. Even when considering bit-restricted quantization, DJPQ achieves larger compression ratios and better accuracy than the two-stage approach.},
+  volume={abs/2007.10463},
+  selected={true}
+}
+
+@inproceedings{plonq,
+  author={Lu, Yadong* and Zhu, Yinhao* and Yang, Yang* and Said, Amir and Cohen, Taco S},
+  booktitle={IEEE International Conference on Image Processing (ICIP)}, 
+  title={Progressive Neural Image Compression With Nested Quantization And Latent Ordering}, 
   year={2021},
-  volume={abs/2102.02913}
+  pages={539-543},
+  doi={10.1109/ICIP42928.2021.9506026},
+  selected={true},
+  image={/assets/img/paper_img/bitwidth.png},
+  html={https://ieeexplore.ieee.org/document/9506026},  
+  abbr={ICIP},
+  abstract={We present PLONQ, a progressive neural image compression scheme which pushes the boundary of variable bitrate compression by allowing quality scalable coding with a single bitstream. In contrast to existing learned variable bitrate solutions which produce separate bitstreams for each quality, it enables easier rate-control and requires less storage. Leveraging the latent scaling based variable bitrate solution, we introduce nested quantization, a method that defines multiple quantization levels with nested quantization grids, and progressively refines all latents from the coarsest to the finest quantization level. To achieve finer progressiveness in between any two quantization levels, latent elements are incrementally refined with an importance ordering defined in the rate-distortion sense. To the best of our knowledge, PLONQ is the first learning-based progressive image coding scheme and it outperforms SPIHT, a well-known wavelet-based progressive image codec.}
 }
 
 @inproceedings{10.1145/3236024.3236026,
@@ -34,7 +89,8 @@ pages = {354–365},
 numpages = {12},
 keywords = {Clone detection, Machine Learning, Software Metrics},
 location = {Lake Buena Vista, FL, USA},
-series = {ESEC/FSE 2018}
+abbr = {ESEC/FSE},
+html={https://doi.org/10.1145/3236024.3236026}
 }
 
 @inproceedings{10.1109/ICSE.2019.00023,
@@ -50,7 +106,8 @@ pages = {49–59},
 numpages = {11},
 keywords = {open source labeled datasets, machine learning, clone detection, precision evaluation},
 location = {Montreal, Quebec, Canada},
-series = {ICSE '19}
+abbr = {ICSE},
+html={https://doi.org/10.1109/ICSE.2019.00023}
 }
 
 @ARTICLE{8751989,
@@ -61,7 +118,11 @@ series = {ICSE '19}
   volume={69},
   number={6},
   pages={2658-2669},
-  doi={10.1109/TIM.2019.2925247}}
+  doi={10.1109/TIM.2019.2925247},
+  abbr={IEEE},
+  abstract={Deep learning (DL) architecture, which exploits multiple hidden layers to learn hierarchical representations automatically from massive input data, presents a promising tool for characterizing fault conditions. This paper proposes a DL-based multi-signal fault diagnosis method that leverages the powerful feature learning ability of a convolutional neural network (CNN) in images. The proposed deep model is able to learn from multiple types of sensor signals simultaneously so that it can achieve robust performance and finally realize accurate induction motor fault recognition. First, the acquired sensor signals are converted to time-frequency distribution (TFD) by wavelet transform. Then, a deep CNN is applied to learning discriminative representations from the TFD images. Since then, a fully connected layer in deep architecture gives the prediction of induction motor condition based on learned features. In order to verify the effectiveness of the designed deep model, experiments are carried out on a machine fault simulator where both vibration and current signals are analyzed. Experimental results indicate that the proposed method outperforms traditional fault diagnosis methods, hence, demonstrating effectiveness in induction motor application. Compared with conventional methods that rely on delicate features extracted by experienced experts, the proposed deep model is able to automatically learn and select suitable features that contribute to accurate fault diagnosis. Compared with single-signal input, the multi-signal model has more accurate and stable performance and overcomes the overfitting problem to some degree.},
+ html={https://ieeexplore.ieee.org/abstract/document/8751989/}
+  }
 
 @inproceedings{ijcai2021-582,
   title={Deep Bucket Elimination},
@@ -73,31 +134,47 @@ series = {ICSE '19}
   year={2021},
   month={8},
   doi={10.24963/ijcai.2021/582},
-  url={https://doi.org/10.24963/ijcai.2021/582},
+  html={https://doi.org/10.24963/ijcai.2021/582},
+  abbr={IJCAI},
+  abstract={Bucket Elimination (BE) is a universal inference scheme that can solve most tasks over probabilistic and deterministic graphical models exactly. However, it often requires exponentially high levels of memory (in the induced-width) preventing its execution. In the spirit of exploiting Deep Learning for inference tasks, in this paper, we will use neural networks to approximate BE. The resulting Deep Bucket Elimination (DBE) algorithm is developed for computing the partition function. We provide a proof-of-concept empirically using instances from several different benchmarks, showing that DBE can be a more accurate approximation than current state-of-the-art approaches for approximating BE (eg the mini-bucket schemes), especially when problems are sufficiently hard.}
 }
 
 @INPROCEEDINGS{9610641,
-  author={Farmahinifarahani, Farima and Lu, Yadong and Saini, Vaibhav and Baldi, Pierre and Lopes, Cristina},
+  author={Farmahinifarahani, Farima* and Lu, Yadong* and Saini, Vaibhav and Baldi, Pierre and Lopes, Cristina},
   booktitle={2021 IEEE 21st International Working Conference on Source Code Analysis and Manipulation (SCAM)}, 
   title={D-REX: Static Detection of Relevant Runtime Exceptions with Location Aware Transformer}, 
   year={2021},
   volume={},
   number={},
   pages={198-208},
-  doi={10.1109/SCAM52516.2021.00032}}
+  doi={10.1109/SCAM52516.2021.00032},
+  abbr={SCAM},
+  html={https://ieeexplore.ieee.org/abstract/document/9610641},
+  abstract={Runtime exceptions are inevitable parts of software systems. While developers often write exception handling code to avoid the severe outcomes of these exceptions, such code is most effective if accompanied by accurate runtime exception types. Predicting the runtime exceptions that may occur in a program, however, is difficult as the situations that lead to these exceptions are complex. We propose D-REX (Deep Runtime EXception detector), as an approach for predicting runtime exceptions of Java methods based on the static properties of code.The core of D-REX is a machine learning model that leverages the representation learning ability of neural networks to infer a set of signals from code to predict the related runtime exception types. This model, which we call Location Aware Transformer, adapts a state-of-the-art language model, Transformer, to provide accurate predictions for the exception types, as well as interpretable recommendations for the exception prone elements of code. We curate a benchmark dataset of 200,000 Java projects from GitHub to train and evaluate D-REX. Experiments demonstrate that D-REX predicts runtime exception types with 81% of Top 1 accuracy, outperforming multiple non-Transformer baselines by a margin of at least 12%. Furthermore, it can predict the exception prone elements of code with 75% Top 1 precision.}
+  }
 
-@article{PhysRevD.103.036012,
-  title = {Sparse autoregressive models for scalable generation of sparse images in particle physics},
-  author = {Lu, Yadong and Collado, Julian and Whiteson, Daniel and Baldi, Pierre},
-  journal = {Phys. Rev. D},
-  volume = {103},
-  issue = {3},
-  pages = {036012},
-  numpages = {22},
-  year = {2021},
-  month = {Feb},
-  publisher = {American Physical Society},
-  doi = {10.1103/PhysRevD.103.036012},
-  url = {https://link.aps.org/doi/10.1103/PhysRevD.103.036012}
+
+@INPROCEEDINGS{MIAO2020187,
+title = {Scalable Bayesian variable selection regression models for count data},
+editor = {Yanan Fan and David Nott and Michael S. Smith and Jean-Luc Dortet-Bernadet},
+booktitle = {Flexible Bayesian Regression Modelling,  Academic Press.},
+publisher = {Academic Press},
+pages = {187-219},
+year = {2020},
+isbn = {978-0-12-815862-3},
+abbr={AP},
+doi = {https://doi.org/10.1016/B978-0-12-815862-3.00015-9},
+html = {https://www.sciencedirect.com/science/article/pii/B9780128158623000159},
+author = {Yinsen Miao and Jeong Hwan Kook and Yadong Lu and Michele Guindani and Marina Vannucci},
+abstract = {Variable selection, also known as feature selection in the machine learning literature, plays an indispensable role in scientific studies. In many research areas with massive data, finding a subset of representative features that best explain the outcome of interest has become a critical component in any researcher's workflow. In this chapter, we focus on Bayesian variable selection regression models for count data, and specifically on the negative binomial linear regression model and on the Dirichlet-multinomial regression model. We address the variable selection problem via spike-and-slab priors. For posterior inference, we review standard MCMC methods and also investigate computationally more efficient variational inference approaches that use data augmentation techniques and concrete relaxation methods. We investigate performance of the methods via simulation studies and benchmark data sets.}
 }
 
+
+@INPROCEEDINGS{Lu2019SparseIG,
+  title={Sparse Image Generation with Decoupled Generative Models},
+  author={Yadong Lu and Julian Collad and Kevin Bauer and  Daniel Whiteson,  and Pierre Baldi},
+  abbr={NeurIPS-ML4S},
+  year={2019},
+  abstract={Learning to generate very sparse images with deep generative models has been a challenging problem due to issues such as mode collapse and sparse gradient signals. In this work, we propose a novel model combining a neural network generator with an explicit mixture model, which induces sparsity with a learnable Dirac delta mass at zero instead of using rectified linear units at the output. Our model decouples the sparsity level and the non-zero distribution of each pixel in the data while fitting both of them simultaneously by minimizing the model’s entropy. We demonstrate both theoretically and empirically that the model is able to learn a rich distribution of a sparse muon image dataset while maintaining desired physical properties such as isolation.},
+  html={https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_161.pdf}
+}
