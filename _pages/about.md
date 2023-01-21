@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I currently work as a researcher at Microsoft working on customization of OpenAI models. My current research is on generative AI. Before that I received my Ph.D. degree in Statistics at UC Irvine (advisor: [Pierre Baldi](https://scholar.google.com/citations?user=RhFhIIgAAAAJ&hl=en)).
+I am a researcher at Microsoft working on OpenAI models customization. My current research is on generative AI. Before that I received my Ph.D. degree in Statistics at UC Irvine (advisor: [Pierre Baldi](https://scholar.google.com/citations?user=RhFhIIgAAAAJ&hl=en)).
 
 I worked on a wide variety of scalable machine learning algorithms with applications to neural network model efficiency, image processing, and natural language processing. 
 
