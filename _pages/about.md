@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine learning scientist / enthusiastic go player <!-- <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
+subtitle: Researcher / enthusiastic go player <!-- <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
 
 profile:
   align: right
