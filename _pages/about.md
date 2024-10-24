@@ -13,9 +13,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a senior researcher at Microsoft Research, Redmond working on vision and language models and efficient finetuning methodologies of OpenAI models. Before that I received my Ph.D. degree in Statistics at UC Irvine (advisor: [Pierre Baldi](https://scholar.google.com/citations?user=RhFhIIgAAAAJ&hl=en)).
+I am a senior researcher at Microsoft Research, Redmond working on efficient pre/post-training methodologies of large vision-language models. Before that I received my Ph.D. degree in Statistics at UC Irvine (advisor: [Pierre Baldi](https://scholar.google.com/citations?user=RhFhIIgAAAAJ&hl=en)).
 
-I worked on a wide variety of scalable machine learning algorithms with applications to neural network model efficiency, image processing, and natural language processing. 
+I am hiring intern for summer 2025. If you are interested in working as an intern with us at Microsoft Research on multimodal models and OS agents, feel free to reachout to me.
 
 <!---
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
