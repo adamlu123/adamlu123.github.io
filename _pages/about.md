@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a senior researcher at Microsoft Research, Redmond working on efficient pre/post-training methodologies of large vision-language models. Before that I received my Ph.D. degree in Statistics at UC Irvine (advisor: [Pierre Baldi](https://scholar.google.com/citations?user=RhFhIIgAAAAJ&hl=en)).
 
-Check out our recent work on computer use agent [OmniParser](https://github.com/microsoft/OmniParser) (Been #1 Trending repo on GitHub and HuggingFace model hub, 22k+ star), and [scaling synthetic trajectory data generation for web agent](https://arxiv.org/abs/2502.11357). 
+Check out our recent work on computer use agent [OmniParser](https://github.com/microsoft/OmniParser) (ranked #1 Trending repo on GitHub and HuggingFace model hub, 22k+ star so far), and [scaling synthetic trajectory data generation for web agent](https://arxiv.org/abs/2502.11357). 
 
 <!---
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
