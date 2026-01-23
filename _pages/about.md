@@ -13,7 +13,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a senior researcher at Microsoft Research, Redmond working on efficient pre/post-training methodologies of large vision-language models. Before that I received my Ph.D. degree in Statistics at UC Irvine (advisor: [Pierre Baldi](https://scholar.google.com/citations?user=RhFhIIgAAAAJ&hl=en)).
+I am a principal researcher at Microsoft Research, Redmond working on computer use agent and efficient pre/post-training methodologies of large vision-language models. Before that I received my Ph.D. degree in Statistics at UC Irvine (advisor: [Pierre Baldi](https://scholar.google.com/citations?user=RhFhIIgAAAAJ&hl=en)).
+I worked on a wide variety of scalable machine learning algorithms with applications to neural network model efficiency, image processing, and natural language processing. 
 
 Check out our recent work on computer use agent [OmniParser](https://github.com/microsoft/OmniParser) (ranked #1 Trending repo on GitHub and HuggingFace model hub, 22k+ star so far), and [scaling synthetic trajectory data for web agent](https://arxiv.org/abs/2502.11357). 
 
