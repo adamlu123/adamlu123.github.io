@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Principal researcher / enthusiastic go player <!-- <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
+subtitle: Researcher / enthusiastic go player <!-- <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
 
 profile:
   align: right
